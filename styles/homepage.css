@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900");
+
+body {
+  overflow-x: hidden;
+}
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+    background-color:  rgba(255, 255, 255, 0.932) !important;
+    color: white !important;
+    z-index: 99;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(17, 14, 14, 0.342);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.336);
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.281);
+    -webkit-backdrop-filter: blur(100px);
+    position: fixed;
+
+}
+
+.the-blur{
+    position: fixed;
+    width: 100%;
+    min-height: 10px;
+    margin-bottom: 20px;
+    background: url(../images/bg1.jpg);
+    opacity: 0.3;
+    overflow: hidden;
+    z-index: -1;
+    -webkit-filter: blur(20px);
+    -moz-filter: blur(20px);
+    -o-filter: blur(20px);
+    -ms-filter: blur(20px);
+    filter: blur(20px);
+ }
+
+.navbar-fixed-top {
+    position:fixed !important;
+}
+.navbar.scrolled {
+    background: rgb(68, 68, 68); /* IE */
+    background: rgba(0, 0, 0, 0.78); /* NON-IE */
+}
+
+.teal {
+  background-color: #34495E !important;
+  color: rgb(218, 218, 218);
+}
+
+/*
+Fade content bs-carousel with hero headers
+Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
+Image credits: unsplash.com
+*/
+
+/********************************/
+/*       Fade Bs-carousel       */
+/********************************/
+.fade-carousel {
+    position: relative;
+    height: 100vh;
+}
+.fade-carousel .carousel-inner .item {
+    height: 100vh;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 2px;
+    background-color: #f39c12;
+    border-color: #f39c12;
+    opacity: .7;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+}
+
+nav.navbar.navbar-expand-md.navbar-light.bg-light {
+  z-index: 99;
+  position: absolute;
+  width: -webkit-fill-available;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px; 
+  margin-left: -15px; 
+}
+
+.paddingTB60 {padding:60px 0px 60px 0px;}
+.gray-bg {
+  background: rgb(219,219,219);
+  background: linear-gradient(90deg, rgb(241, 241, 241) 0%, rgba(134, 7, 0, 0.226) 100%);
+}
+.about-title {}
+.about-title h1 {color: #271d1d; font-size:45px;font-weight:600;}
+.about-title span {color: #AF0808; font-size:45px;font-weight:700;}
+.about-title h3 {color: #271919; font-size:23px;margin-bottom:24px;}
+.about-title p {color: #181111;line-height: 1.8;margin: 0 0 15px;}
+.about-paddingB {padding-bottom: 12px;}
+.about-img {padding-left: 57px;}
+
+/* Social Icons */
+.about-icons {margin:48px 0px 48px 0px ;}
+.about-icons i{margin-right: 10px;padding: 0px; font-size:35px;color:#323232;box-shadow: 0 0 3px rgba(0, 0, 0, .2);}
+.about-icons li {margin:0px;padding:0;display:inline-block;}
+#social-fb:hover {color: #3B5998;transition:all .001s;}
+ #social-tw:hover {color: #4099FF;transition:all .001s;}
+ #social-gp:hover {color: #d34836;transition:all .001s;}
+ #social-em:hover {color: #f39c12;transition:all .001s;}
+
+ .gray-img{
+   background-image: url(../images/bg1.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .btn-style {
+   width: 20%;
+   border-radius: 50px;
+   background: rgb(171,38,38);
+   background: linear-gradient(90deg, rgba(171,38,38,1) 0%, rgb(167, 43, 37) 100%);
+   -webkit-box-shadow: 10px 10px 32px -15px rgba(189,32,45,1);
+   -moz-box-shadow: 10px 10px 32px -15px rgba(189,32,45,1);
+   box-shadow: 10px 10px 32px -15px rgba(189,32,45,1);
+   color: white;
+ }
+
+ .btn-style:hover {
+  border-radius: 50px;
+  background: rgb(224,54,54);
+  background: linear-gradient(90deg, rgba(224,54,54,1) 0%, rgba(199,50,42,1) 100%);
+  -webkit-box-shadow: 10px 10px 32px -15px rgba(189,32,45,1);
+-moz-box-shadow: 10px 10px 32px -15px rgba(189,32,45,1);
+box-shadow: 10px 10px 32px -15px rgba(189,32,45,1);
+  color: white;
+}
+
+
+
+
+    
+h2 {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 60px;
+}
+
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color: #747d89;
+	min-height: 325px;
+    text-align: center;
+	overflow: hidden;
+}
+.carousel .thumb-wrapper {
+	padding: 25px 15px;
+	background: #fff;
+	border-radius: 6px;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.carousel .item .img-box {
+	height: 120px;
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+}
+.carousel .item img {	
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.carousel .item h4 {
+	font-size: 18px;
+}
+.carousel .item h4, .carousel .item p, .carousel .item ul {
+	margin-bottom: 5px;
+}
+.carousel .thumb-content .btn {
+	color: #721616;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #691317;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+.carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+	color: #fff;
+	background: #bb1b28;
+	box-shadow: none;
+}
+.carousel .thumb-content .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .carousel-control {
+	height: 44px;
+	width: 40px;
+	background: #971f1f;	
+    margin: auto 0;
+    border-radius: 50px;
+	opacity: 0.8;
+}
+.carousel .carousel-control:hover {
+	background: #ce263d;
+	opacity: 1;
+}
+.carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+	text-shadow: none;
+    font-weight: bold;
+}
+.carousel .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.carousel .item-price strike {
+	opacity: 0.7;
+	margin-right: 5px;
+}
+.carousel .carousel-control.left i {
+	margin-left: -2px;
+}
+.carousel .carousel-control.right i {
+	margin-right: -4px;
+}
+.carousel .carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 4px;
+	border-radius: 50%;
+	border-color: transparent;
+}
+.carousel-indicators li {	
+	background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {	
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.slick-next::before {
+  color: #000 !important;
+}
+.slick-prev::before {
+  color: #000 !important;
+}
+
+.card-view{ 
+    -webkit-box-shadow: 1px 0px 69px -21px rgba(5,4,5,0.28);
+    -moz-box-shadow: 1px 0px 69px -21px rgba(5,4,5,0.28);
+    box-shadow: 1px 0px 69px -21px rgba(5,4,5,0.28);
+    border-radius: 0;
+    margin-right: 10px;
+}
+
+.addtocart {
+    border-radius: 0;
+    border: #691317;
+    border-style: solid;
+    border-width: thin;
+}
+
+.card-img-top {
+    border: none;
+}
+
+    /* the slides */
+  .slick-slide {
+    margin: 0 15px;
+  }
+  /* the parent */
+  .slick-list {
+    margin: 0 -15px;
+}
+
+.swal-size-sm 
+{
+   width: 200px !important;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-position: fixed;
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.658); 
+}
+.content{
+    z-index: 2;
+}
+.bg-about {
+    background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}

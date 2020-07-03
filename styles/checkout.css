@@ -1,0 +1,59 @@
+#introduction {
+    background-image: url("../images/header-shop.jpg");
+    background-size: cover;
+    background-position-y: -400px;
+}
+
+section{
+    height: 250px;
+}
+
+.pad {
+    padding-bottom: 5px !important;
+}
+
+#introduction-payment {
+    background-image: url("../images/payment.jpg");
+    background-size: cover;
+    background-position-y: -300px;
+}
+
+.fas {
+    color: rgb(19, 19, 29) !important;
+}
+
+
+label {
+    width: 100%;
+}
+
+.card-input-element {
+    display: none;
+}
+
+
+.card-input:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+     box-shadow: 0 0 1px 1px #cc2e3b;
+ }
+
+ input {
+    visibility:hidden;
+}
+
+.card-cc {
+    padding: 10px;
+    border-radius: 0px;
+    background-color: rgb(255, 254, 254);
+    border: none;
+    -webkit-box-shadow: 0px 3px 29px -2px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 3px 29px -2px rgba(0,0,0,0.19);
+    box-shadow: 0px 3px 29px -2px rgba(0,0,0,0.19);
+}
+
+.panel-body {
+    text-align: center;
+}

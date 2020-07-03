@@ -1,0 +1,240 @@
+body{
+    background-color: #f7f7f7;
+    font-family: 'Open Sans', sans-serif;
+}
+.card-blue {
+    background-image: linear-gradient(to right top, #051937, #091d42, #11214e, #1b2559, #262864);
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-yellow {
+    background-image: linear-gradient(to right top, #b98b1d, #ba921d, #ba991e, #baa020, #b9a723);
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-info {
+    background-image: linear-gradient(to right top, #1c687e, #0e778b, #008795, #00979e, #00a7a4, #0ea8a4, #17a9a4, #1eaaa4, #209c9e, #278f96, #2e818c, #347481);
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-red {
+    background-image: linear-gradient(to right top, #641414, #741818, #841b1b, #941f1f, #a52323, #a72424, #a82525, #aa2626, #9d2424, #902222, #832020, #761e1e);
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    padding: 20px;
+    background: white;
+    -webkit-box-shadow: 1px 3px 50px -13px rgba(0,0,0,0.22);
+    -moz-box-shadow: 1px 3px 50px -13px rgba(0,0,0,0.22);
+    box-shadow: 1px 3px 50px -13px rgba(0,0,0,0.22);
+}
+
+.card {
+    background-image: url(../images/icons8-box-512.png);
+    background-size: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #0c2b58;
+    padding: 20px;
+    color: rgb(229, 237, 243);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(65,99,168,0.32);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(65,99,168,0.32);
+    box-shadow: 10px 10px 42px -10px rgba(65,99,168,0.32);  
+}
+
+section {
+    margin: 30px;
+}
+
+.fa-shopping-bag {
+    color: rgb(19, 93, 143);
+}
+
+.total-pro {
+    background-image: url(../images/icons8-trolley-500.png);
+    background-size: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #1E8449;
+    padding: 20px;
+    color: rgb(229, 237, 243);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(82, 168, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(89, 168, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(82, 168, 65, 0.616);  
+}
+
+
+.total-danger {
+    background-image: url(../images/icons8-box-important-500.png);
+    background-size: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: rgb(204, 84, 28);
+    padding: 20px;
+    color: rgb(229, 237, 243);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.616);  
+}
+
+.total-zero {
+    background-image: url(../images/icons8-empty-box-512.png);
+    background-size: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #C0392B;
+    padding: 20px;
+    color: rgb(229, 237, 243);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.616);  
+}
+
+
+.card-user{
+    background-image: url(../images/icons8-user-groups-500.png);
+    background-size: 200px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: rgb(12, 136, 155);
+    padding: 20px;
+    color: rgb(229, 237, 243);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(141, 124, 124, 0.616);  
+}
+
+.total-cust {
+    background-image: url(../images/icons8-reception-500.png);
+    background-size: 150px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #473081;
+    padding: 20px;
+    color: rgb(229, 237, 243);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(141, 124, 124, 0.616);  
+}
+
+.total-pending {
+    background-image: url(../images/icons8-data-pending-500.png);
+    background-size: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #F2AE25;
+    padding: 20px;
+    color:  rgb(131, 90, 9);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(141, 124, 124, 0.616);  
+}
+
+.total-confirm {
+    background-image: url(../images/icons8-checkmark-filled-500.png);
+    background-size: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: rgb(87, 157, 187);
+    padding: 20px;
+    color: rgb(2, 35, 49);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(141, 124, 124, 0.616);  
+}
+
+.total-cancel {
+    background-image: url(../images/icons8-delete-filled-500.png);
+    background-size: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: #BA6969;
+    padding: 20px;
+    color: rgb(49, 24, 24);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(141, 124, 124, 0.616);  
+}
+
+.total-ready {
+    background-image: url(../images/icons8-truck-100.png);
+    background-size: 100px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: rgb(107, 170, 134);
+    padding: 20px;
+    color: rgb(14, 46, 28);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(141, 124, 124, 0.616);  
+}
+
+.total-complete {
+    background-image: url(../images/icons8-shipped-100.png);
+    background-size: 100px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #229954;
+    padding: 20px;
+    color: rgb(1, 5, 3);
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 3px;
+    -webkit-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.555);
+    -moz-box-shadow: 10px 10px 42px -10px rgba(168, 65, 65, 0.562);
+    box-shadow: 10px 10px 42px -10px rgba(141, 124, 124, 0.616);  
+}
+
+
+
+@media (min-width: 992px) {
+    .col-md-3 {
+        width: 24% !important;
+    }
+    .col-md-5 {
+        width: 48.5%;
+    }
+    .col-md-4 {
+        width: 32.2%;
+    }
+}
